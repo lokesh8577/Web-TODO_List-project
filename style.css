@@ -1,0 +1,90 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  background: black;
+  box-shadow: 0 0 10px rgb(161, 161, 161, 0.1);
+  border: 2px solid #F7F6F7;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+
+.add-box {
+  border: 1px solid white;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  top: 10px;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+button {
+  background-color: gray;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: red;
+}
+
+#taskInput {
+  width: calc(100% - 100px);
+  /* Adjust to fit with the button */
+  padding: 10px;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+
+.add-button {
+  width: 90px;
+  background-color: gray;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  /* Fixed width for the add button */
+}
+
+.add-button:hover {
+  background-color: #0fd20f;
+}
